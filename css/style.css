@@ -11,11 +11,15 @@ body {
 }
 
 img {
-    width: 40%;
+    width: 45%;
 }
 
 .text {
-    font-size: 30px;
+    font-size: 2rem;
+}
+
+.p-text {
+    font-size: 1rem;
 }
 
 p {
@@ -43,7 +47,7 @@ p {
     margin-bottom: 20px;
     font-family: 'Courgette', cursive;
     font-size: 3rem;
-    text-shadow: 5px 0 #000;
+    text-shadow: 2px 0 #000;
     color: #8da88b;
     letter-spacing: 4px;
 }
