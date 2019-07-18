@@ -15,11 +15,21 @@
     <div class="container ">
         
     <div class="winner ">
-        <h1><strong>Refresh to play</strong></h1>
+        <h1><strong>Press button to play</strong></h1>
     </div>
+
+
     <h2 class="reminder ">Remember</h2>
     <p>Scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard, lizard eats paper, paper disproves Spock, Spock vaporizes rock, and as it always has, rock crushes scissors.</p>
-  
+  <div>
+    <button class="butn " type="button " onClick="refreshPage() ">Play</button>
+</div>
+<script>
+function refreshPage(){
+    window.location.reload();
+} 
+</script>
+
     <div class="player ">
       <h2> Player 1 </h2>
       <img src="images/rock.png " alt="player 1 image ">
@@ -33,7 +43,7 @@
 
     
 </div>
-<div class="btn ">
+<div class="Btn ">
     <button class="butn "><a href="index.html ">Home</a></button>
 </div>
 
