@@ -26,10 +26,8 @@ p {
     margin: 0;
 }
 
-.footer {
-    background-color: #fff;
-    margin: 0;
-    height: 20px;
+footer {
+    background-color: #ffffff;
 }
 
 .rules {

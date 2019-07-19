@@ -9,6 +9,24 @@
         text-align: center;
     }
     
+    footer {
+        background-color: #ffffff;
+        margin-top: 30px;
+    }
+    
+    img {
+        width: 30%;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+    
+    h2 {
+        padding: 1.5rem;
+        font-size: 3rem;
+    }
+    
     .winner {
         text-align: center;
         margin: 3rem;
@@ -27,27 +45,15 @@
         text-align: center;
     }
     
-    h2 {
-        padding: 1.5rem;
-        font-size: 3rem;
-    }
-    
     .reminder {
         font-size: 3rem;
-    }
-    
-    img {
-        width: 30%;
-    }
-    
-    p {
-        font-size: 1rem;
     }
     
     .Btn {
         text-align: center;
         padding-top: 5rem;
     }
+    /* play button */
     
     .butn {
         -webkit-border-radius: 12;
@@ -74,4 +80,48 @@
     a:hover {
         text-decoration: none;
         color: #000;
+    }
+    /* home button */
+    
+    .home {
+        -webkit-border-radius: 12;
+        -moz-border-radius: 12;
+        border-radius: 12px;
+        font-family: Arial;
+        color: #000;
+        font-size: 26px;
+        background: #d66846;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        margin-bottom: 10px;
+    }
+    
+    .home:hover {
+        background: #e0915c;
+        text-decoration: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+    
+    a:hover {
+        text-decoration: none;
+        color: #000;
+    }
+    
+    @media screen and (min-width: 750px) {
+        .butn {
+            display: none;
+        }
+        .play-btn {
+            display: none;
+        }
+    }
+    
+    @media screen and (max-width: 750px) {
+        .refresh {
+            display: none;
+        }
     }
