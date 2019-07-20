@@ -110,6 +110,36 @@
         text-decoration: none;
         color: #000;
     }
+    /* icons */
+    
+    .social {
+        font-size: 2.5rem;
+        letter-spacing: 10px;
+    }
+    
+    .fa-facebook-square {
+        color: #3b5998;
+    }
+    
+    .fa-facebook-square:hover {
+        transform: scale(1.5);
+    }
+    
+    .fa-instagram {
+        color: #e4405f;
+    }
+    
+    .fa-instagram:hover {
+        transform: scale(1.5);
+    }
+    
+    .fa-github {
+        color: #000;
+    }
+    
+    .fa-github:hover {
+        transform: scale(1.5);
+    }
     
     @media screen and (min-width: 750px) {
         .butn {
