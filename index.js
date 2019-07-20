@@ -21,3 +21,8 @@ console.log(randomResult2);
 let randomImageSrc2 = "images/" + randomResult2 + ".png" //game img2
 
 document.querySelectorAll("img")[1].setAttribute("src", randomImageSrc2);
+
+
+$(".credit").click(function() {
+    $(".list").toggle(".list-show");
+});

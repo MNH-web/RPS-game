@@ -83,3 +83,52 @@ footer {
     width: 10%;
     margin-left: 45%;
 }
+
+
+/* icons */
+
+.social {
+    font-size: 2.5rem;
+    letter-spacing: 10px;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+.fa-facebook-square:hover {
+    transform: scale(1.5);
+}
+
+.fa-instagram {
+    color: #e4405f;
+}
+
+.fa-instagram:hover {
+    transform: scale(1.5);
+}
+
+.fa-github {
+    color: #000;
+}
+
+.fa-github:hover {
+    transform: scale(1.5);
+}
+
+
+/* credit  section */
+
+.credit {
+    border: none;
+    text-decoration: underline;
+}
+
+.list-show {
+    display: none;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
